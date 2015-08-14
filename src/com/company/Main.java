@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	    Account bob = new Account(1000, 35);
-        Account tom = new Account(1000,35);
+        Account tom = new Account(1000, 35);
 
         bob.withdraw(500, 0);
         System.out.println("Bob's payoff amount is $" + Math.round(bob.get_payoff_amount() * 100.0) / 100.0);
